@@ -1,0 +1,23 @@
+.main{
+  padding: 0.5rem;
+}
+
+.card{
+  padding: 0.5rem;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background: #fff;
+}
+
+.card__price{
+  display: flex;
+  align-items: flex-end;
+}
+
+.card__price img{
+  width: 24px;
+  height: 24px;
+}

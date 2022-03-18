@@ -1,0 +1,53 @@
+.main{
+  padding: 0.3rem 0.5rem;
+}
+
+.main span{
+  font-weight: 700;
+
+}
+
+.card{
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin: 0.5rem 0 1rem 0;
+  cursor: pointer;
+}
+
+.card__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__header img{
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.card__main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__tmep{
+
+}
+
+.card__about{
+  color: goldenrod;
+}
+
+.card__footer{
+  display: flex;
+  justify-content: end;
+}
+
+.card__footer img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}

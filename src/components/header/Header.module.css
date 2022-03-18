@@ -1,0 +1,38 @@
+.main{
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 0.5rem;
+  font-weight: 700;
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.main__img :nth-child(1){
+  height: 24px;
+  width: 24px;
+}
+
+.main__img img{
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+
+
+@media (max-width:920px) {
+  .main{
+    width: 75%;
+  }
+
+}
+
+@media (max-width:720px) {
+  .main{
+    width: 100%;
+  }
+}
